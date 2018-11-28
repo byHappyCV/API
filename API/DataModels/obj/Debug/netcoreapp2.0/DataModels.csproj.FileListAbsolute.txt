@@ -1,0 +1,9 @@
+C:\testAPI\API\DataModels\bin\Debug\netcoreapp2.0\DataModels.deps.json
+C:\testAPI\API\DataModels\bin\Debug\netcoreapp2.0\DataModels.dll
+C:\testAPI\API\DataModels\bin\Debug\netcoreapp2.0\DataModels.pdb
+C:\testAPI\API\DataModels\obj\Debug\netcoreapp2.0\DataModels.csprojAssemblyReference.cache
+C:\testAPI\API\DataModels\obj\Debug\netcoreapp2.0\DataModels.csproj.CoreCompileInputs.cache
+C:\testAPI\API\DataModels\obj\Debug\netcoreapp2.0\DataModels.AssemblyInfoInputs.cache
+C:\testAPI\API\DataModels\obj\Debug\netcoreapp2.0\DataModels.AssemblyInfo.cs
+C:\testAPI\API\DataModels\obj\Debug\netcoreapp2.0\DataModels.dll
+C:\testAPI\API\DataModels\obj\Debug\netcoreapp2.0\DataModels.pdb

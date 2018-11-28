@@ -4746,6 +4746,30 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "DataModels": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "DataModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DataModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataModels.dll": {}
+        }
       }
     }
   },
@@ -12654,10 +12678,21 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "DataModels/1.0.0": {
+      "type": "project",
+      "path": "../DataModels/DataModels.csproj",
+      "msbuildProject": "../DataModels/DataModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "DAL >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.9",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12691,7 +12726,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\testAPI\\API\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\testAPI\\API\\DAL\\DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,9 @@
+C:\testAPI\API\Models\bin\Debug\netcoreapp2.0\Models.deps.json
+C:\testAPI\API\Models\bin\Debug\netcoreapp2.0\Models.dll
+C:\testAPI\API\Models\bin\Debug\netcoreapp2.0\Models.pdb
+C:\testAPI\API\Models\obj\Debug\netcoreapp2.0\Models.csprojAssemblyReference.cache
+C:\testAPI\API\Models\obj\Debug\netcoreapp2.0\Models.csproj.CoreCompileInputs.cache
+C:\testAPI\API\Models\obj\Debug\netcoreapp2.0\Models.AssemblyInfoInputs.cache
+C:\testAPI\API\Models\obj\Debug\netcoreapp2.0\Models.AssemblyInfo.cs
+C:\testAPI\API\Models\obj\Debug\netcoreapp2.0\Models.dll
+C:\testAPI\API\Models\obj\Debug\netcoreapp2.0\Models.pdb

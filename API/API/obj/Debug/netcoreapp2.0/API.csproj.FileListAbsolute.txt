@@ -1,0 +1,16 @@
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\API.deps.json
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.json
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.dev.json
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\API.dll
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\API.pdb
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\DAL.dll
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\DataModels.dll
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\DAL.pdb
+C:\testAPI\API\API\bin\Debug\netcoreapp2.0\DataModels.pdb
+C:\testAPI\API\API\obj\Debug\netcoreapp2.0\API.csprojAssemblyReference.cache
+C:\testAPI\API\API\obj\Debug\netcoreapp2.0\API.csproj.CoreCompileInputs.cache
+C:\testAPI\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfoInputs.cache
+C:\testAPI\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfo.cs
+C:\testAPI\API\API\obj\Debug\netcoreapp2.0\API.csproj.CopyComplete
+C:\testAPI\API\API\obj\Debug\netcoreapp2.0\API.dll
+C:\testAPI\API\API\obj\Debug\netcoreapp2.0\API.pdb

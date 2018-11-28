@@ -1,0 +1,9 @@
+C:\testAPI\API\BAL\bin\Debug\netcoreapp2.0\BAL.deps.json
+C:\testAPI\API\BAL\bin\Debug\netcoreapp2.0\BAL.dll
+C:\testAPI\API\BAL\bin\Debug\netcoreapp2.0\BAL.pdb
+C:\testAPI\API\BAL\obj\Debug\netcoreapp2.0\BAL.csprojAssemblyReference.cache
+C:\testAPI\API\BAL\obj\Debug\netcoreapp2.0\BAL.csproj.CoreCompileInputs.cache
+C:\testAPI\API\BAL\obj\Debug\netcoreapp2.0\BAL.AssemblyInfoInputs.cache
+C:\testAPI\API\BAL\obj\Debug\netcoreapp2.0\BAL.AssemblyInfo.cs
+C:\testAPI\API\BAL\obj\Debug\netcoreapp2.0\BAL.dll
+C:\testAPI\API\BAL\obj\Debug\netcoreapp2.0\BAL.pdb
