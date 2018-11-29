@@ -17,21 +17,31 @@ namespace API.Controllers
         {
             _authorsService = authorsService;
         }
-
+        /// <summary>
+        /// get all
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<AuthorDTO> Get()
         {
             return _authorsService.GetAuthors();
         }
-
-        // GET api/values/5
+        /// <summary>
+        /// get item
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             var result = _authorsService.GetAuthor(id);
             return new JsonResult(result);
         }
-
+        /// <summary>
+        /// Create item
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Create([FromBody] AuthorDTO item)
         {
@@ -44,8 +54,11 @@ namespace API.Controllers
 
             return Ok(item);
         }
-
-        // PUT api/values/5
+        /// <summary>
+        /// Update item
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
         [HttpPut]
         public IActionResult Put([FromBody]AuthorDTO item)
         {
@@ -57,8 +70,10 @@ namespace API.Controllers
             return Ok(item);
 
         }
-
-        // DELETE api/values/5
+        /// <summary>
+        /// delete item
+        /// </summary>
+        /// <param name="id"></param>
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

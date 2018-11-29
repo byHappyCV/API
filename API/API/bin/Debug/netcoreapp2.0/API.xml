@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.ValuesController.Get">
+            <summary>
+            get all
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            get item
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.Create(Models.DTO.AuthorDTO)">
+            <summary>
+            Create item
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.Put(Models.DTO.AuthorDTO)">
+            <summary>
+            Update item
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            delete item
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
