@@ -1,4 +1,8 @@
-﻿using DAL;
+﻿using AutoMapper;
+using BAL.Implementation.Services;
+using BAL.Interfaces;
+using BAL.Mapper;
+using DAL;
 using DAL.Implementation;
 using DAL.Interfaces;
 using Microsoft.AspNetCore.Builder;
@@ -28,6 +32,17 @@ namespace API
                 (options => options.UseSqlServer(connection));
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IQuoteService, QuoteService>();
+            services.AddTransient<IAuthorsService, AuthorsService>();
+
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
 
         }
 

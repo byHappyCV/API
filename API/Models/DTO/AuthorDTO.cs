@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataModels
+namespace Models.DTO
 {
-    public class Author
+    public class AuthorDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

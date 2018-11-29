@@ -2,37 +2,60 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BAL.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Models.DTO;
 
 namespace API.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        // GET api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IAuthorsService _authorsService;
+
+        public ValuesController(IAuthorsService authorsService)
         {
-            return new string[] { "value1", "value2" };
+            _authorsService = authorsService;
+        }
+
+        [HttpGet]
+        public IEnumerable<AuthorDTO> Get()
+        {
+            return _authorsService.GetAuthors();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var result = _authorsService.GetAuthor(id);
+            return new JsonResult(result);
         }
 
-        // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IActionResult Create([FromBody] AuthorDTO item)
         {
+            if (item == null)
+            {
+                return BadRequest();
+            }
+
+            _authorsService.AddAuthor(item);
+
+            return Ok(item);
         }
 
         // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [HttpPut]
+        public IActionResult Put([FromBody]AuthorDTO item)
         {
+            if (item == null)
+            {
+                return BadRequest();
+            }
+            _authorsService.EditAuthor(item);
+            return Ok(item);
+
         }
 
         // DELETE api/values/5
