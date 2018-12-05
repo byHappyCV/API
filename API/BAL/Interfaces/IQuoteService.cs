@@ -5,10 +5,10 @@ namespace BAL.Interfaces
 {
     public interface IQuoteService
     {
-        void AddAuthor(QuoteDTO quote);
-        void EditAuthor(QuoteDTO quote);
-        void DeleteAuthor(QuoteDTO quote);
-        List<QuoteDTO> GetAuthors();
-        QuoteDTO GetAuthor(int quoteId);
+        void AddQuote(QuoteDTO quote);
+        void EditQuote(QuoteDTO quote);
+        void DeleteQuote(QuoteDTO quote);
+        List<QuoteDTO> GetQuotes();
+        QuoteDTO GetQuote(int quoteId);
     }
 }

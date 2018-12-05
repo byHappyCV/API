@@ -1,0 +1,11 @@
+C:\testAPI\API\NewConsoleClient\bin\Debug\netcoreapp2.1\NewConsoleClient.deps.json
+C:\testAPI\API\NewConsoleClient\bin\Debug\netcoreapp2.1\NewConsoleClient.runtimeconfig.json
+C:\testAPI\API\NewConsoleClient\bin\Debug\netcoreapp2.1\NewConsoleClient.runtimeconfig.dev.json
+C:\testAPI\API\NewConsoleClient\bin\Debug\netcoreapp2.1\NewConsoleClient.dll
+C:\testAPI\API\NewConsoleClient\bin\Debug\netcoreapp2.1\NewConsoleClient.pdb
+C:\testAPI\API\NewConsoleClient\obj\Debug\netcoreapp2.1\NewConsoleClient.csprojAssemblyReference.cache
+C:\testAPI\API\NewConsoleClient\obj\Debug\netcoreapp2.1\NewConsoleClient.csproj.CoreCompileInputs.cache
+C:\testAPI\API\NewConsoleClient\obj\Debug\netcoreapp2.1\NewConsoleClient.AssemblyInfoInputs.cache
+C:\testAPI\API\NewConsoleClient\obj\Debug\netcoreapp2.1\NewConsoleClient.AssemblyInfo.cs
+C:\testAPI\API\NewConsoleClient\obj\Debug\netcoreapp2.1\NewConsoleClient.dll
+C:\testAPI\API\NewConsoleClient\obj\Debug\netcoreapp2.1\NewConsoleClient.pdb

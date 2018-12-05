@@ -1,0 +1,16 @@
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\DAL.deps.json
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\DAL.dll
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\DAL.pdb
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\DataModels.dll
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\DataModels.pdb
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.xml
+C:\testAPI\API\DAL\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\testAPI\API\DAL\obj\Release\netcoreapp2.0\DAL.csprojAssemblyReference.cache
+C:\testAPI\API\DAL\obj\Release\netcoreapp2.0\DAL.csproj.CoreCompileInputs.cache
+C:\testAPI\API\DAL\obj\Release\netcoreapp2.0\DAL.AssemblyInfoInputs.cache
+C:\testAPI\API\DAL\obj\Release\netcoreapp2.0\DAL.AssemblyInfo.cs
+C:\testAPI\API\DAL\obj\Release\netcoreapp2.0\DAL.csproj.CopyComplete
+C:\testAPI\API\DAL\obj\Release\netcoreapp2.0\DAL.dll
+C:\testAPI\API\DAL\obj\Release\netcoreapp2.0\DAL.pdb

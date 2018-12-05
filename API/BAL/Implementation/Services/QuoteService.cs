@@ -20,31 +20,31 @@ namespace BAL.Implementation.Services
             _mapper = mapper;
         }
 
-        public void AddAuthor(QuoteDTO quote)
+        public void AddQuote(QuoteDTO quote)
         {
             _unitOfWork.Quotes.Insert(_mapper.Map<Quote>(quote));
             _unitOfWork.Save();
         }
 
-        public void EditAuthor(QuoteDTO quote)
+        public void EditQuote(QuoteDTO quote)
         {
             _unitOfWork.Quotes.Update(_mapper.Map<Quote>(quote));
             _unitOfWork.Save();
         }
 
-        public void DeleteAuthor(QuoteDTO quote)
+        public void DeleteQuote(QuoteDTO quote)
         {
             _unitOfWork.Quotes.Delete(_mapper.Map<Quote>(quote));
             _unitOfWork.Save();
         }
-        public List<QuoteDTO> GetAuthors()
+        public List<QuoteDTO> GetQuotes()
         {
             var result = _unitOfWork.Quotes.GetAll();
 
             return _mapper.Map<List<QuoteDTO>>(result);
         }
 
-        public QuoteDTO GetAuthor(int quoteId)
+        public QuoteDTO GetQuote(int quoteId)
         {
             var result = _unitOfWork.Quotes.Get(c => c.Id == quoteId);
 

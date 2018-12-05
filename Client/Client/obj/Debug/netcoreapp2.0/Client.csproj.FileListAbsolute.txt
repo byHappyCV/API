@@ -1,0 +1,8 @@
+C:\testAPI\Client\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+C:\testAPI\Client\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+C:\testAPI\Client\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+C:\testAPI\Client\Client\bin\Debug\netcoreapp2.0\Client.dll
+C:\testAPI\Client\Client\obj\Debug\netcoreapp2.0\Client.csprojAssemblyReference.cache
+C:\testAPI\Client\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+C:\testAPI\Client\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+C:\testAPI\Client\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs

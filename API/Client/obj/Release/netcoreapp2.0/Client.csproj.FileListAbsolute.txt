@@ -1,0 +1,4 @@
+C:\testAPI\API\Client\obj\Release\netcoreapp2.0\Client.csprojAssemblyReference.cache
+C:\testAPI\API\Client\obj\Release\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+C:\testAPI\API\Client\obj\Release\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+C:\testAPI\API\Client\obj\Release\netcoreapp2.0\Client.AssemblyInfo.cs

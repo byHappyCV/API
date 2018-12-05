@@ -1,0 +1,9 @@
+C:\testAPI\API\APILib\bin\Release\netcoreapp2.0\APILib.deps.json
+C:\testAPI\API\APILib\bin\Release\netcoreapp2.0\APILib.dll
+C:\testAPI\API\APILib\bin\Release\netcoreapp2.0\APILib.pdb
+C:\testAPI\API\APILib\obj\Release\netcoreapp2.0\APILib.csprojAssemblyReference.cache
+C:\testAPI\API\APILib\obj\Release\netcoreapp2.0\APILib.csproj.CoreCompileInputs.cache
+C:\testAPI\API\APILib\obj\Release\netcoreapp2.0\APILib.AssemblyInfoInputs.cache
+C:\testAPI\API\APILib\obj\Release\netcoreapp2.0\APILib.AssemblyInfo.cs
+C:\testAPI\API\APILib\obj\Release\netcoreapp2.0\APILib.dll
+C:\testAPI\API\APILib\obj\Release\netcoreapp2.0\APILib.pdb
